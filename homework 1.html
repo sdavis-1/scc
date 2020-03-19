@@ -34,7 +34,8 @@
             background-image: url('http://blogfiles.naver.net/20130108_48/eunhyunbee_1357605712415Oo692_JPEG/%C4%BF%C7%C7%C0%C7_%C0%E5%C1%A1%B0%FA_%B4%DC%C1%A1_%BE%CB%BE%C6%BA%B8%B1%E2_2.jpg');
             background-size: cover;
             background-position: center;
-            width: 600px;
+            /* 이미지도 통일성을 위해 500px을 하는 건 어떨지요? */
+            width: 600px; 
             height: 400px;
             border-radius: 10px;
             display: flex;
@@ -81,15 +82,15 @@
         }
 
         .wrap {
-
             width: 500px;
             margin-left: 300px;
         }
 
         .btn {
-            flex-direction: row;
+            /* TODO: 이렇게 주석을 처리해도 코드가 달리지는게 없습니다! 그럼 이 부분을 빼보시는건 어떨까요?*/
+            /* flex-direction: row;
             align-items: center;
-            justify-content: center;
+            justify-content: center; */
             margin: 40px 30px 0px 500px;
             font-family: 'Gamja Flower', cursive;
         }

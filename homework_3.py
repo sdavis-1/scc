@@ -11,6 +11,7 @@ data = requests.get('https://www.genie.co.kr/chart/top200?ditc=D&rtm=N&ymd=20200
 soup = BeautifulSoup(data.text, 'html.parser')
 
 #select를 이용하여 tr 불러오기
+# TODO: tbody 를 사용하지 않는 건 어떨까요?
 songs = soup.select('tbody > tr.list')
 #print(songs)
 rank = 1

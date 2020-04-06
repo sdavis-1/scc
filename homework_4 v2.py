@@ -11,7 +11,7 @@ db = client.dbsparta  # 'dbsparta'라는 이름의 db를 만듭니다.
 ## HTML을 주는 부분
 @app.route('/')
 def home():
-    return render_template('index2.html')
+    return render_template('index2 v2.html')
 
 
 ## API 역할을 하는 부분
